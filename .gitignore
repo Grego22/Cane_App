@@ -25,3 +25,11 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+./credentials.yml.enc
+/config/secrets.yml
