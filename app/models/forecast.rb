@@ -4,7 +4,6 @@ class Forecast
 
     def initialize
         @options = { query: { q: city, q: country } }
-        api_key = "test"
     end
 
     def get_weather_by_city
