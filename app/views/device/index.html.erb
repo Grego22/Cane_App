@@ -10,6 +10,6 @@
   
   
   <p>Temperature in <%= "#{@forecast.city}, #{@forecast.state}" %> is <%= @forecast.temp_f %></p>
-  <p>Current Weather in <%= "#{@forecast.city}, #{@forecast.state}" %> is <%= @forecast.weather %></p>
+  <p>Current Weather in <%= "#{@forecast.city}, #{@forecast.state}" %> is <%= @forecast.weather % placeholder='Enter a city, e.g. Dublin, IE'></p>
 
   </div>

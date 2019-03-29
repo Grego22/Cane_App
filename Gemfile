@@ -38,7 +38,7 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 # For Http Requests
-gem 'faraday', '~> 0.9.2'
+gem 'httparty', '~> 0.13.7'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
