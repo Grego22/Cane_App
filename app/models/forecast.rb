@@ -3,10 +3,11 @@ class Forecast
     base_uri 'http://api.openweathermap.org/'
 
     def initialize
+        @options = { query: { q: city, q: country } }
         api_key = "test"
     end
 
-    def get_data
-        self.class.get('/data/2.5/weather?q', @options)
+    def get_weather_by_city
+        self.class.get('/data/2.5/weather', @options)
     end
 end
